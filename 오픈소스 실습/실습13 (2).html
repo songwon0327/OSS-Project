@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="kr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CSS Layout</title>
+      <style>
+          body {
+              width: 500px; margin: 10px auto;
+          }
+          #middle {overflow: hidden;}
+          #left {float: left; width: 150px; background: red;}
+          #right {float: right; width: 350px; background: blue;}
+          #top {background: green;}
+          #bottom {background: purple;}
+      </style>
+  </head>
+    <body>
+        <div id="top">operating is a collection...</div>
+        <div id="middle">
+        <div id="left">multiprogramming is a term...</div>
+            <div id="right">A process is in a state of...</div>
+        </div>
+        <div id="bottom">instructions and date are...</div>
+    </body>
+</html>

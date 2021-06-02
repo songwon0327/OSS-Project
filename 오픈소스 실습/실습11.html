@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang= kr dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>css3 Selector Basic</title>
+  </head>
+    <style>
+        #first {
+            color: red;
+            background-color: orange;
+        }
+        
+        h2 {
+            color: red;
+        }
+        
+        p {
+            color: blue;
+        }
+        
+        #header{
+            width: 800px;
+            margin: 0 auto;
+            background: red;
+        }
+        
+        #wrap{
+            width: 800px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        
+        #aside{
+            width: 200px;
+            float: left;
+            background: blue;
+        }
+        
+        #content{
+            width: 600px;
+            float: left;
+            background: green;
+        }
+        
+        li.selector{
+            color: red;
+        }
+        .item{color: red;}
+        .header{background-color: blue;}
+    </style>
+    <body>
+    <h1 id="first">css3 선택자 기본 </h1>
+        <h2>Operating System</h1>
+        <p>The term operating system...</p>
+        <div id="header"><h1>#header</h1></div>
+        <div id="wrap">
+        <div id="aside"><h1>#aside tag</h1></div>
+        <div id="content"><h1>#content tag</h1></div>
+            
+        </div>
+        <h1 class="selector">Fruits</h1>
+            <ul>
+            <li class="selector">apple</li>
+                <li>banana</li>
+                <li class="selector">orange</li>
+            </ul>
+        <h1 class="item header">Hong Kil-Dong</h1>
+    </body>
+
+</html>
